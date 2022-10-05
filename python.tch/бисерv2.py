@@ -1,0 +1,7 @@
+fin = open('INPUT.TXT')
+line = fin.readline()
+fin.close()
+a = int(line)
+fout = open('OUTPUT.TXT', 'w')
+fout.write(str(a+1))
+fout.close()
